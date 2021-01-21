@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Sports</title>
+        <link rel="icon" href="sportslogo.jfif">
+        <style>
+            body{
+                height: 1100px;
+                width: 100%;
+                background-image: url("board.jpeg");
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+            .list{
+                position: absolute;
+                bottom: 585px;
+                left: 550px;
+                margin: 0 auto;
+            }
+            ul{
+                list-style-type: none;
+                padding: 0px;
+                margin: 0 auto;
+            }
+            li{
+                float: left;
+                padding: 1px;
+                margin: 0px;
+            }
+            a{
+                color: white;
+                text-align: center;
+                font-size: 15pt;
+                display: block;
+                height: 30px;
+                width: 180px;
+            }
+            a:link{
+                font-weight: bold;
+                background-color:darkgray;
+                text-decoration: none;
+            }
+            a:hover{
+                background-color: green;
+            }
+            .rectangle{
+                position: absolute;
+                bottom: 575px;
+                left: 42px;
+                height: 50px;
+                width: 94.8%;
+                background-color: whitesmoke;
+            }
+            .rectangle2{
+                position: absolute;
+                bottom: 581px;
+                left: 47px;
+                height: 40px;
+                width: 94%;
+                background-color: black;
+            }
+            .border{
+                position: absolute;
+                bottom: 570px;
+                left: 35px;
+                height: 60px;
+                width: 96%;
+                background-color: black;
+            }
+            .box{
+                height: 1000px;
+                width: 550px;
+                position: absolute;
+                top: 100px;
+                left: 530px;
+                background-color: black;
+            }
+            .box2{
+                height: 980px;
+                width: 530px;
+                position: absolute;
+                top: 10px;
+                left: 10px;
+                background-color: white;
+            }
+            .box3{
+                height: 970px;
+                width: 520px;
+                position: absolute;
+                top: 5px;
+                left: 5px;
+                background-color: black;
+            }
+            .rectangle3{
+                height: 1000px;
+                width: 300px;
+                position: absolute;
+                top: 100px;
+                left: 180px;
+                background-color: black;
+            }
+            .rectangle4{
+                height: 980px;
+                width: 280px;
+                position: absolute;
+                top: 10px;
+                left: 10px;
+                background-color: white;
+            }
+            .rectangle5{
+                height: 970px;
+                width: 270px;
+                position: absolute;
+                top: 5px;
+                left: 5px;
+                background-color: black;
+            }
+            .small{
+                position: absolute;
+                left: 30px;
+                top: 20px;
+                border: 4;
+                border-color: black;
+                border-radius: 50%;
+            }
+            .big{
+                position: absolute;
+                width: 0px;
+                transition: width 0.3s linear 0s;
+                z-index: 10;
+            }
+            .small:hover + .big{
+                width: 400px;
+                position: absolute;
+                left: 250px;
+            }
+            .hr{
+                position: relative;
+                top: 245px;
+                height: 3px;
+                background-color: white ;
+            }
+            .rectangle6{
+                height: 700px;
+                width: 250px;
+                position: absolute;
+                top: 267px;
+                left: 10px;
+            }
+            .box3 p{
+                font-size: 15pt;
+                line-height: 20pt;
+                margin: 10pt;
+                text-indent: 30pt;
+                color: white;
+            }
+            .rectangle6 p{
+                word-spacing: 3pt;
+                font-size: large;
+                color: white;
+            }
+            .piccontainer{
+                height: 200px;
+                width: 520px;
+                position: absolute;
+            }
+            .picsmall{
+                position: absolute;
+                top: 10px;
+                left: 180px;
+            }
+            .picbig{
+                position: absolute;
+                top: 150px;
+                left: 170px;
+                width: 0px;
+                transition: width 0.3s linear 0s;
+                z-index: 10;
+            }
+            .picsmall:hover + .picbig{
+                width: 300px;
+            }
+            .p1{
+                text-align: center;
+            }
+            .p2{
+                position:absolute;
+                left: 90px;
+                bottom: 15px;
+            }
+            .p3{
+                position: absolute;
+                top: 265px;
+                text-align: center;
+            }
+            .piccontainer2{
+                height: 200px;
+                width: 520px;
+                position: absolute;
+                top: 450px;
+            }
+            .picsmall2{
+                position: absolute;
+                left: 80px;
+            }
+            .picbig2{
+                width: 0px;
+                position: absolute;
+                top: 130px;
+                left: 50px;
+                transition: width 0.3s linear 0s;
+                z-index: 10;
+            }
+            .picsmall2:hover + .picbig2{
+                width: 300px;
+            }
+            .picsmall3{
+                position: absolute;
+                left: 320px;
+            }
+            .picbig3{
+                width: 0px;
+                position: absolute;
+                top: 130px;
+                left: 240px;
+                transition: width 0.3s linear 0s;
+                z-index: 10;
+            }
+            .picsmall3:hover + .picbig3{
+                width: 300px;
+            }
+            .p4{
+             position: absolute;
+             top: 120px;   
+            }
+            .p5{
+                position: absolute;
+                top: 120px;
+                left: 220px;
+            }
+            .p6{
+                position: absolute;
+                top: 600px;
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="border"></div>
+        <div class="rectangle"></div>
+        <div class="rectangle2"></div>
+        <div class="list">
+            <div>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="profile.html">Profile</a></li>
+                    <li><a href="sports.html">Sports</a></li>
+                    <li><a href="education.html">Schools</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="box">
+            <div class="box2">
+                <div class="box3">
+                    <p class="p1">[1]Ramon III G. Balibalita had only 2 sports it's chess and billiard. He is a varsity player
+                         of chess on his senior high school
+                    </p>
+                    <div class="piccontainer">
+                        <p class="p2">(My Varsity Polo Shirt)</p>
+                        <img class="picsmall" src="Shirt.jpg" alt="Varsity Shirt" height="120" width="120" border="4" style="border-color: aqua;">
+                        <img class="picbig" src="Shirt.jpg" alt="Varsity Shirt">
+                    </div>
+                    <p class="p3">
+                        [2]He's varsity polo shirt is different from the varsity shirt of other players because 
+                        the players are the one who decided what was the varsity shirt they want so Ramon wants 
+                        a varsity shirt that is comfortable and make him easy to think because it is not hot when 
+                        you wear it then it's a very comfortable shirt.
+                    </p>
+                    <div class="piccontainer2">
+                        <img class="picsmall2" src="Chessboard.jpg" alt="Chessboard" height="120" width="120" border="4" style="border-color: aqua;">
+                        <img class="picbig2" src="Chessboard.jpg" alt="Chessboard">
+
+                        <img class="picsmall3" src="chess.jpg" alt="chess" height="120" width="120" border="4" style="border-color: aqua;">
+                        <img class="picbig3" src="chess.jpg" alt="chess">
+                        <p class="p4">(My First Chessboard)</p>
+                        <p class="p5">(Place where i play chess)</p>
+                    </div>
+                    <p class="p6">
+                        [3]His first chessboard is the picture on the left side it was already used over 1 year didn't have much damage 
+                        on its board. During lockdown that board cannot be played so i decided to abandon it for a while but as the 
+                        time goes by he always miss playing chess so instead of abandoning the board is he study different openings 
+                        and sacrificial moves by himself. [4]The second picture is the place where he always played chess but he can 
+                        play only if someone wants to play with him because the player there is not playing without a bet or a money 
+                        game it also look like a gambling but it's a sports sometimes theres a person that giving him money just to 
+                        play with those tricycle drivers and thanks to that person supporting him.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="rectangle3">
+            <div class="rectangle4">
+                <div class="rectangle5">
+                    <img class="small" src="profile.jpg" alt="amon" height="200" border="4" style="border-color: aqua;">
+                    <img class="big" src="profile.jpg" alt="amon">
+                    <hr class="hr">
+                    <div class="rectangle6">
+                        <p>
+                            [1]Sports, [2]Varsity Shirt, [3]First Chessboard, [4]Place where he play.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
