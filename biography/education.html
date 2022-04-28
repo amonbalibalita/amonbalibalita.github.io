@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Schools</title>
+        <link rel="icon" href="schoollogo.jpeg">
+        <style>
+            body{
+                margin: 0;
+                padding: 0;
+                height: 100%;
+                width: 100%;
+            }
+            .change{
+                height: 1500px;
+                width: 100%;
+                background-image: url("nature.jpeg");
+                background-size: cover;
+                background-position: center;
+                background-repeat: no-repeat;
+            }
+            .list{
+                position: absolute;
+                bottom: 585px;
+                left: 550px;
+                margin: 0 auto;
+            }
+            ul{
+                list-style-type: none;
+                padding: 0px;
+                margin: 0 auto;
+            }
+            li{
+                float: left;
+                padding: 1px;
+                margin: 0px;
+            }
+            a{
+                color: white;
+                text-align: center;
+                font-size: 15pt;
+                display: block;
+                height: 30px;
+                width: 180px;
+            }
+            a:link{
+                font-weight: bold;
+                background-color:darkgray;
+                text-decoration: none;
+            }
+            a:hover{
+                background-color: green;
+            }
+            .rectangle{
+                position: absolute;
+                bottom: 575px;
+                left: 42px;
+                height: 50px;
+                width: 94.8%;
+                background-color: whitesmoke;
+            }
+            .rectangle2{
+                position: absolute;
+                bottom: 581px;
+                left: 47px;
+                height: 40px;
+                width: 94%;
+                background-color: black;
+            }
+            .border{
+                position: absolute;
+                bottom: 570px;
+                left: 35px;
+                height: 60px;
+                width: 96%;
+                background-color: black;
+            }
+            .box{
+                height: 1400px;
+                width: 700px;
+                position: absolute;
+                top: 100px;
+                left: 370px;
+                background-color: black;
+            }
+            .box2{
+                height: 1380px;
+                width: 680px;
+                position: absolute;
+                top: 10px;
+                left: 10px;
+                background-color: white;
+            }
+            .box3{
+                height: 1370px;
+                width: 670px;
+                position: absolute;
+                top: 5px;
+                left: 5px;
+                background-color: black;
+            }
+            .small{
+                width: 200px;
+                height: 200px;
+                position: absolute;
+                top: 100px;
+                left: 230px;
+            }
+            .big{
+                width: 0px;
+            }
+            .small:hover + .big{
+                width: 300px;
+                position: absolute;
+                top: 50px;
+                left: 440px;
+                transition: width 0.3s linear 0s;
+                z-index: 10;
+            }
+            .p1{
+                color:white;
+                font-size: 30pt;
+                text-align: center;
+                font-family: verdana;
+                font-weight: bolder;
+            }
+            .p2{
+                color:white;
+                font-size: 30pt;
+                text-align: center;
+                font-family: verdana;
+                font-weight: bolder;
+                position: absolute;
+                top: 270px;
+                left: 95px;
+            }
+            .small2{
+                width: 200px;
+                height: 200px;
+                position: absolute;
+                top: 380px;
+                left: 230px;
+            }
+            .big2{
+                width: 0px;
+            }
+            .small2:hover + .big2{
+                width: 300px;
+                position: absolute;
+                top: 350px;
+                left: 440px;
+                transition: width 0.3s linear 0s;
+                z-index: 10;
+            }
+            .p3{
+                color:white;
+                font-size: 30pt;
+                text-align: center;
+                font-family: verdana;
+                font-weight: bolder;
+                position: absolute;
+                top: 570px;
+                left: 95px;
+            }
+            .small3{
+                width: 200px;
+                height: 200px;
+                position: absolute;
+                top: 700px;
+                left: 230px;
+            }
+            .big3{
+                width: 0px;
+            }
+            .small3:hover + .big3{
+                width: 300px;
+                position: absolute;
+                top: 650px;
+                left: 440px;
+                transition: width 0.3s linear 0s;
+                z-index: 10;
+            }
+            .p4{
+                color:white;
+                font-size: 30pt;
+                text-align: center;
+                font-family: verdana;
+                font-weight: bolder;
+                position: absolute;
+                top: 880px;
+                left: 130px;
+            }
+            .small4{
+                width: 200px;
+                height: 200px;
+                position: absolute;
+                top: 1000px;
+                left: 230px;
+            }
+            .big4{
+                width: 0px;
+            }
+            .small4:hover + .big4{
+                width: 300px;
+                position: absolute;
+                top: 950px;
+                left: 440px;
+                transition: width 0.3s linear 0s;
+                z-index: 10;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="change"></div>
+        <div class="border"></div>
+        <div class="rectangle"></div>
+        <div class="rectangle2"></div>
+        <div class="list">
+            <div>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="profile.html">Profile</a></li>
+                    <li><a href="sports.html">Sports</a></li>
+                    <li><a href="education.html">Schools</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="box">
+            <div class="box2">
+                <div class="box3">
+                    <p class="p1">My Elementary School</p>
+                    <img class="small" src="elementary.jpeg" alt="Elementary School" border="4" style="border-color: aqua;";>
+                    <img class="big" src="elementary.jpeg" alt="Elementary School">
+                    <p class="p2">My Junior High School</p>
+                    <img class="small2" src="high.jpeg" alt="Junior High School" border="4" style="border-color: aqua;";>
+                    <img class="big2" src="high.jpeg" alt="Junior High School">
+                    <p class="p3">My Senior High School</p>
+                    <img class="small3" src="sanlorenzo.jpeg" alt="Senior High School" border="4" style="border-color: aqua;";>
+                    <img class="big3" src="sanlorenzo.jpeg" alt="Senior High School">
+                    <p class="p4">My College School</p>
+                    <img class="small4" src="plp.jpeg" alt="College School" border="4" style="border-color: aqua;";>
+                    <img class="big4" src="plp.jpeg" alt="College High School">
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
