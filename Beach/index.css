@@ -1,0 +1,53 @@
+.btn-group{
+    position: absolute;
+    top: 8px;
+    left: 10px;
+    text-decoration: none;
+}
+.container{
+    height: 60px;
+    width: 1000px;
+    background-color: white;
+    position: absolute;
+    top: 30px;
+    left: 98px;
+}
+.container2{
+    height: 55px;
+    width: 1315px;
+    background-color: black;
+    position: absolute;
+    top: 2px;
+    left: 3px;
+}
+.container3{
+    height: 70px;
+    width: 500px;
+    background-color: white;
+    position: absolute;
+    top: 650px;
+    left: 550px;
+}
+.container4{
+    height: 65px;
+    width: 495px;
+    background-color: black;
+    position: absolute;
+    top: 2px;
+    left: 3px;
+}
+.Name{
+    font-family: 'Times New Roman';
+    color: aqua;
+    position: absolute;
+    top: 8px;
+    left: 40px;
+}
+button a{
+    text-decoration: none;
+    color: white;
+}
+button a:hover{
+    color: white;
+    text-decoration: none;
+}

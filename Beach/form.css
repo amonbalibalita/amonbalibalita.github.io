@@ -1,0 +1,16 @@
+.rectangle{
+    height: 455px;
+    width: 550px;
+    position: absolute;
+    top: 150px;
+    left: 450px;
+    background-color: black;
+}
+.rectangle1{
+    height: 450px;
+    width: 545px;
+    position: absolute;
+    top: 2.5px;
+    left: 2.5px;
+    background-color: aqua;
+}

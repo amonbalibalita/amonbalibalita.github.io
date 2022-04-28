@@ -1,0 +1,21 @@
+.rectangle{
+    height: 33px;
+    width: 282px;
+    background-color: black;
+    position: absolute;
+    left: 205px;
+    top: 100px;
+    border-top-right-radius: 50px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+.rectangle1{
+    height: 570px;
+    width: 1115px;
+    background-color: black;
+    position: absolute;
+    top: 130px;
+    left: 205px;
+}

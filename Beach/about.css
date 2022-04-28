@@ -1,0 +1,31 @@
+.rectangle{
+    height: 600px;
+    width: 1010px;
+    background-color: black;
+    position: absolute;
+    top: 2px;
+    left: 2px;
+}
+.rectangle1{
+    height: 605px;
+    width: 1015px;
+    background-color: white;
+    position: absolute;
+    top: 110px;
+    left: 220px;
+}
+.rectangle2{
+    height: 380px;
+    width: 1000px;
+    background-color: white;
+    position: absolute;
+    top: 210px;
+    left: 5px;
+}
+.info{
+    margin: 10pt;
+    text-align: justify;
+    font-size: 14pt;
+    text-indent: 30pt;
+    font-weight: bold;
+}
