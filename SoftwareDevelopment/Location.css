@@ -1,0 +1,53 @@
+body{
+    height: 1000px;
+}
+.PicContainer{
+    height: 410px;
+    width: 910px;
+    background-color: black;
+    position: absolute;
+    top: 330px;
+    left: 20%;
+}
+.box{
+    height: 400px;
+    width: 241px;
+    position: absolute;
+    top: 284px;
+    left: 968px;
+}
+#contact{
+    position: absolute;
+    top: 780px;
+    left: 40%;
+    color: white;
+    font-family: Times New Roman;
+    font-weight: bold;
+}
+.fullname{
+    position: absolute;
+    top: 840px;
+    left: 26%;
+    color: white;
+    font-weight: bold;
+}
+.email{
+    position: absolute;
+    top: 880px;
+    left: 28.7%;
+    color: white;
+    font-weight: bold;
+}
+.text{
+    position: absolute;
+    top: 870px;
+    left: 26.6%;
+    color: white;
+    font-weight: bold;
+}
+.buttons{
+    position: absolute;
+    top: 1029px;
+    left: 31.7%;
+    color: white;
+}

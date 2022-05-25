@@ -1,0 +1,131 @@
+body{
+    height: 1265px;
+}
+.textContainer{
+    position: absolute;
+    top: 380px;
+    background-color: black;
+    height: 250px;
+    width: 300px;
+    left: 200px;
+}
+.p1{
+    background-color: aqua;
+    border: 2pt solid;
+    text-align: center;
+}
+.title{
+    color: white;
+    font-weight: bold;
+    font-size: 20pt;
+    text-align: center;
+}
+.textContainer1{
+    position: absolute;
+    top: 380px;
+    background-color: black;
+    height: 250px;
+    width: 300px;
+    left: 600px;
+}
+.p2{
+    background-color: aqua;
+    border: 2pt solid;
+    text-align: center;
+}
+.title1{
+    color: white;
+    font-weight: bold;
+    font-size: 20pt;
+    text-align: center;
+}
+.textContainer2{
+    position: absolute;
+    top: 380px;
+    background-color: black;
+    height: 250px;
+    width: 300px;
+    left: 1000px;
+}
+.p3{
+    background-color: aqua;
+    border: 2pt solid;
+    text-align: center;
+}
+.title2{
+    color: white;
+    font-weight: bold;
+    font-size: 20pt;
+    text-align: center;
+}
+.textContainer3{
+    position: absolute;
+    top: 680px;
+    background-color: black;
+    height: 250px;
+    width: 300px;
+    left: 400px;
+}
+.p4{
+    background-color: aqua;
+    border: 2pt solid;
+    text-align: center;
+}
+.title3{
+    color: white;
+    font-weight: bold;
+    font-size: 20pt;
+    text-align: center;
+}
+.textContainer4{
+    position: absolute;
+    top: 680px;
+    background-color: black;
+    height: 250px;
+    width: 300px;
+    left: 800px;
+}
+.p5{
+    background-color: aqua;
+    border: 2pt solid;
+    text-align: center;
+}
+.title4{
+    color: white;
+    font-weight: bold;
+    font-size: 20pt;
+    text-align: center;
+}
+.form{
+    position: absolute;
+    top: 1500px;
+    left: 500px;
+}
+#contact{
+    position: absolute;
+    top: 975px;
+    left: 40%;
+    color: white;
+}
+.fullname{
+    position: absolute;
+    top: 1030px;
+    color: white;
+    left: 25%;
+}
+.email{
+    position: absolute;
+    top: 1070px;
+    color: white;
+    left: 27.5%;
+}
+.text{
+    position: absolute;
+    top: 1060px;
+    left: 25%;
+}
+.buttons{
+    position: absolute;
+    top: 1220px;
+    left: 30.1%;
+}

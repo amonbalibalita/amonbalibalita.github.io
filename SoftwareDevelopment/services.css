@@ -1,0 +1,74 @@
+body{
+    height: 1880px;
+}
+.ul1{
+    position: absolute;
+    top: 140px;
+    left: 33%;
+    color: white;
+    font-weight: bold;
+    font-family: Times New Roman;
+}
+.ul2{
+    position: absolute;
+    top: 465px;
+    left: 31%;
+    color: black;
+    font-weight: bold;
+    font-family: Times New Roman;
+}
+.ul3{
+    position: absolute;
+    top: 735px;
+    left: 33%;
+    color: white;
+    font-weight: bold;
+    font-family: Times New Roman;
+}
+.ul4{
+    position: absolute;
+    top: 1055px;
+    left: 33%;
+    color: black;
+    font-weight: bold;
+    font-family: Times New Roman;
+}
+.ul5{
+    position: absolute;
+    top: 1340px;
+    left: 33%;
+    color: white;
+    font-weight: bold;
+    font-family: Times New Roman;
+}
+#contact{
+    position: absolute;
+    top: 1570px;
+    left: 40%;
+    font-weight: bold;
+    font-family: Times New Roman;
+    color: black;
+}
+.fullname{
+    position: absolute;
+    top: 1640px;
+    left: 30%;
+    font-weight: bolder;
+}
+.email{
+    position: absolute;
+    top: 1680px;
+    left: 32.6%;
+    font-weight: bolder;
+}
+.text{
+    position: absolute;
+    top: 1670px;
+    left: 30.5%;
+    font-weight: bolder;
+}
+.buttons{
+    position: absolute;
+    top: 1830px;
+    left: 35.7%;
+}
