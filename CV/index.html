@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Curriculum Vitae</title>
+    <style>
+        body{
+            height: 100%;
+            width: 100%;
+            background-color: gray;
+        }
+        .container{
+            height: 1100px;
+            width: 900px;
+            background-color: black;
+            position: absolute;
+            left: 270px;
+        }
+        .container1{
+            height: 1080px;
+            width: 880px;
+            background-color: white;
+            position: absolute;
+            left: 10px;
+            top: 10px;
+        }
+        .title{
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 25pt;
+            text-align: center;
+            font-weight: bold;
+        }
+        .data{
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 13pt;
+            text-align: left;
+            font-weight: bold;
+            text-indent: 65pt;
+        }
+        .line1{
+            height: 3px;
+            width: 700px;
+            background-color: black;
+            position: absolute;
+            top: 125px;
+            left: 86px;
+        }
+        .name{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 12pt;
+            text-align: left;
+            position: absolute;
+            left: 86px;
+            top: 135px;
+            font-weight: bold;
+        }
+        .NameDetail{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 12pt;
+            text-align: left;
+            position: absolute;
+            left: 240px;
+            top: 135px;
+        }
+        .address{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 12pt;
+            text-align: left;
+            position: absolute;
+            left: 86px;
+            top: 155px;
+            font-weight: bold;
+        }
+        .AddressDetail{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 12pt;
+            text-align: left;
+            position: absolute;
+            left: 240px;
+            top: 155px;
+        }
+        .ContactNum{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 12pt;
+            text-align: left;
+            position: absolute;
+            left: 86px;
+            top: 175px;
+            font-weight: bold;
+        }
+        .BirthPlace{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 12pt;
+            text-align: left;
+            position: absolute;
+            left: 86px;
+            top: 195px;
+            font-weight: bold;
+        }
+        .BirthDate{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 12pt;
+            text-align: left;
+            position: absolute;
+            left: 86px;
+            top: 215px;
+            font-weight: bold;
+        }
+        .MaritalStatus{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 12pt;
+            text-align: left;
+            position: absolute;
+            left: 86px;
+            top: 235px;
+            font-weight: bold;
+        }
+        .Email{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 12pt;
+            text-align: left;
+            position: absolute;
+            left: 86px;
+            top: 255px;
+            font-weight: bold;
+        }
+        .BirthPlaceDetail{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 12pt;
+            text-align: left;
+            position: absolute;
+            left: 240px;
+            top: 195px;
+        }
+        .BirthDateDetail{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 12pt;
+            text-align: left;
+            position: absolute;
+            left: 240px;
+            top: 215px;
+        }
+        .MaritalStatusDetail{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 12pt;
+            text-align: left;
+            position: absolute;
+            left: 240px;
+            top: 235px;
+        }
+        .EmailDetail{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 12pt;
+            text-align: left;
+            position: absolute;
+            left: 240px;
+            top: 255px;
+        }
+        .PictureContainer{
+            height: 150px;
+            width: 150px;
+            background-color: white;
+            text-align: center;
+            border-style: solid;
+            border-color: black;
+            position: absolute;
+            left: 630px;
+            top: 135px;
+        }
+        .line2{
+            height: 3px;
+            width: 700px;
+            background-color: black;
+            position: absolute;
+            top: 295px;
+            left: 86px;
+        }
+        .Education{
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 13pt;
+            text-align: left;
+            font-weight: bold;
+            text-indent: 65pt;
+            position: absolute;
+            top: 300px;
+        }
+        .line3{
+            height: 3px;
+            width: 700px;
+            background-color: black;
+            position: absolute;
+            top: 335px;
+            left: 86px;
+        }
+        .Primary{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 12pt;
+            text-align: left;
+            position: absolute;
+            left: 86px;
+            top: 340px;
+            font-weight: bold;
+        }
+        .PrimaryDetail{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 12pt;
+            text-align: left;
+            position: absolute;
+            left: 240px;
+            top: 340px;
+        }
+        .PrimaryYear{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 12pt;
+            text-align: left;
+            position: absolute;
+            left: 680px;
+            top: 340px;
+        }
+        .PrimaryAchievement{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 12pt;
+            text-align: left;
+            position: absolute;
+            left: 260px;
+            top: 360px;
+        }
+        .Secondary{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 12pt;
+            text-align: left;
+            position: absolute;
+            left: 86px;
+            top: 380px;
+            font-weight: bold;
+        }
+        .SecondaryDetail1{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 12pt;
+            text-align: left;
+            position: absolute;
+            left: 240px;
+            top: 380px;
+        }
+        .SecondaryYear1{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 12pt;
+            text-align: left;
+            position: absolute;
+            left: 680px;
+            top: 380px;
+        }
+        .SecondaryAchievement1{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 12pt;
+            text-align: left;
+            position: absolute;
+            left: 260px;
+            top: 400px;
+        }
+        .SecondaryDetail2{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 12pt;
+            text-align: left;
+            position: absolute;
+            left: 240px;
+            top: 420px;
+        }
+        .SecondaryYear2{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 12pt;
+            text-align: left;
+            position: absolute;
+            left: 680px;
+            top: 420px;
+        }
+        .SecondaryAchievement2{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 12pt;
+            text-align: left;
+            position: absolute;
+            left: 260px;
+            top: 440px;
+        }
+        .Tertiary{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 12pt;
+            text-align: left;
+            position: absolute;
+            left: 86px;
+            top: 460px;
+            font-weight: bold;
+        }
+        .TertiaryDetail{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 12pt;
+            text-align: left;
+            position: absolute;
+            left: 240px;
+            top: 460px;
+        }
+        .TertiaryYear{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 12pt;
+            text-align: left;
+            position: absolute;
+            left: 680px;
+            top: 460px;
+        }
+        .line4{
+            height: 3px;
+            width: 700px;
+            background-color: black;
+            position: absolute;
+            top: 500px;
+            left: 86px;
+        }
+        .ObjectiveGoal{
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 13pt;
+            text-align: left;
+            font-weight: bold;
+            text-indent: 65pt;
+            position: absolute;
+            top: 510px;
+        }
+        .line5{
+            height: 3px;
+            width: 700px;
+            background-color: black;
+            position: absolute;
+            top: 550px;
+            left: 86px;
+        }
+        .ObjectiveGoalDetail{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 12pt;
+            text-align: left;
+            position: absolute;
+            left: 90px;
+            top: 560px;
+        }
+        .line6{
+            height: 3px;
+            width: 700px;
+            background-color: black;
+            position: absolute;
+            top: 660px;
+            left: 86px;
+        }
+        .Skills{
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 13pt;
+            text-align: left;
+            font-weight: bold;
+            text-indent: 65pt;
+            position: absolute;
+            top: 670px;
+        }
+        .line7{
+            height: 3px;
+            width: 700px;
+            background-color: black;
+            position: absolute;
+            top: 710px;
+            left: 86px;
+        }
+        .SkillsDetail{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 12pt;
+            text-align: left;
+            position: absolute;
+            left: 90px;
+            top: 720px;
+        }
+        .line8{
+            height: 3px;
+            width: 700px;
+            background-color: black;
+            position: absolute;
+            top: 910px;
+            left: 86px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="container1">
+            <p class="title"><u>Curriculum Vitae</u></p>
+            <p class="data">Personal Data</p>
+            <div class="PictureContainer"></div>
+            <img src="picture.png" alt="My Picture" style="height:150px; width: 150px;background-size: cover;text-align: center;
+            border-style: solid;border-color: black;position: absolute;left: 630px;top: 135px;">
+            <div class="line1"></div>
+            <p class="name">Name: </p>
+            <p class="NameDetail">Balibalita, Ramon III G.</p>
+            <p class="address">Address:</p>
+            <p class="AddressDetail">876 Kamagong Street, Napico Manggahan, Pasig City</p>
+            <p class="ContactNum">Contact Number: </p>
+            <p class="BirthPlace">Place of Birth:</p>
+            <p class="BirthPlaceDetail">Quezon City</p>
+            <p class="BirthDate">Birthday:</p>
+            <p class="BirthDateDetail">June 30, 2002</p>
+            <p class="MaritalStatus">Marital Status:</p>
+            <p class="MaritalStatusDetail">Single</p>
+            <p class="Email">Email:</p>
+            <p class="EmailDetail">amonbalibalita21@gmail.com</p>
+            <div class="line2"></div>
+            <p class="Education">Education</p>
+            <div class="line3"></div>
+            <p class="Primary">Primary: </p>
+            <p class="PrimaryDetail">Manggahan Elementary School</p>
+            <p class="PrimaryYear">2006 - 2012</p>
+            <p class="PrimaryAchievement">No Achievement</p>
+            <p class="Secondary">Secondary:</p>
+            <p class="SecondaryDetail1">Manggahan High School</p>
+            <p class="SecondaryYear1">2012 - 2016</p>
+            <p class="SecondaryAchievement1">No Achievement</p>
+            <p class="SecondaryDetail2">San Lorenzo Ruiz Senior High School</p>
+            <p class="SecondaryYear2">2016 - 2018</p>
+            <p class="SecondaryAchievement2">Graduated With Honor</p>
+            <p class="Tertiary">Tertiary:</p>
+            <p class="TertiaryDetail">Pamantasan ng Lungsod ng Pasig</p>
+            <p class="TertiaryYear">2018 - Present</p>
+            <div class="line4"></div>
+            <p class="ObjectiveGoal">Objective and Goal</p>
+            <p class="ObjectiveGoalDetail">My Objective is to experience the field of Information Technology 
+                and to learn more to enhance my<br>skills so that the company I will work for will be satisfied on my work.
+                My goal is to become a<br> professional Webpage Developer through working hard and studying everything I didn't 
+                know will<br> help me to become a Professional Webpage Developer.
+            </p>
+            <div class="line5"></div>
+            <div class="line6"></div>
+            <p class="Skills">Skills</p>
+            <div class="line7"></div>
+            <p class="SkillsDetail">- Know Some function of Microsoft Excel<br>
+            - Setup Client and Server<br>- Assembling and Disassembling Computer<br>- Reformat a Computer<br>- Setup Networking Cables
+            <br>- Java Programming<br>- Visual Basic Programming<br>- Know how to use MySQL <br>- C++ programming</p>
+            <div class="line8"></div>
+        </div>
+    </div>
+</body>
+</html>
