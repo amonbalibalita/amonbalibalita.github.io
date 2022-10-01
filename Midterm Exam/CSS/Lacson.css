@@ -1,0 +1,95 @@
+.container{
+    position: absolute;
+    top: 110px;
+    left: 420px;
+    background-color: black;
+    height: 670px;
+    width: 300px;
+    border: 3px solid;
+    border-color: white;
+}
+.Leni{
+    position: absolute;
+    left: 50px;
+    top: 25px;
+    height: 200px;
+    width: 200px;
+    border-radius: 100px;
+}
+.box1{
+    width: 400px;
+    height: 1230    px;
+    position: absolute;
+    background-color: black;
+    top: 110px;
+    left: 750px;
+    border: 3px solid;
+    border-color: white;
+}
+.info{
+    margin: 5pt;
+    font-size: 16px;
+    color: white;
+    text-align: justify;
+}
+.about{
+    color: pink;
+    text-align: center;
+}
+.career{
+    color: pink;
+    text-align: center;
+}
+.CareerInfo{
+    margin: 5pt;
+    font-size: 16px;
+    color: white;
+    text-align: justify;
+}
+.container2{
+    height: 375px;
+    width: 300px;   
+    position: absolute;
+    top: 37%;
+}
+.VP{
+    color: white;
+    font-size: 15px;
+    text-align: center;
+}
+.Details{
+    color: pink;
+    text-align: center;
+}
+.PersonalDetails{
+    position: absolute;
+    left: 30px;
+    color: pink;
+}
+.InfoContainer{
+    position: absolute;
+    top: 45px;
+    left: 50%;
+    height: 300px;
+    width: 150px;
+    color: white;
+}
+.underline{
+    position: absolute;
+    top: 79px;
+    left: 1190px;
+    height: 1px;
+    width: 100px;
+    border-bottom: 5px solid;
+    border-color: white;
+}
+.imgcontainer{
+    height: auto;
+    width: 20%;
+}
+.imgcontainer .Leni{
+    transition: transform 2s;
+}
+.imgcontainer:hover .Leni{
+    transform: scale(1.5);
+}
