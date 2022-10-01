@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Forms</title>
+    </head>
+    <body background="../Image/form.jpeg" style="background-repeat: no-repeat; background-size: cover;">
+        <div class="rectangle1" style="height: 500px;width: 350px; background-color: white; position: absolute; top: 130px; left: 600px;">
+            <div class="rectangle2" style="height: 495px; width: 345px; background-color: brown; position: absolute; top: 2px; left: 2px;">       
+        <form action="gmail.com" style="position: absolute; left: 30px;top: 20px;">
+            <div>
+                <label for="name">Name: </label>
+                <input type="text" name="name" placeholder="Full Name" required style="position: absolute; left: 65px;">
+            </div>
+            <div>
+                <label for="contact"><br>Contact: </label>
+                <input type="text" name="contact" placeholder="Cellphone Number" required style="position: absolute; left: 65px;">
+            </div>
+            <div>
+                <label for="email"><br>Email: </label>
+                <input type="email" name="email" placeholder="Email" style="position: absolute; left: 65px;">
+            </div>
+            <div>
+                <label for="address"><br>Address: </label>
+                <input type="text" name="address" placeholder="Complete Address" required style="position: absolute; left: 65px;">
+            </div>
+            <div>
+                <label for="age"><br>Age: </label>
+                <input type="number" name="age" placeholder="Age" min="1" max="100" required style="position: absolute; left: 65px;">
+            </div>
+            <div>
+                <label for="motorColor"><br>Color: </label>
+                <select name="motorColor" id="motorColor" required style="position: absolute; left: 65px;">
+                    <option value="Phantom Black">Phantom Black</option>
+                    <option value="Matte Red">Matte Red</option>
+                    <option value="Midnight Black">Midnight Black</option>
+                    <option value="Tech Camo">Tech Camo</option>
+                </select>
+            </div>
+            <div>
+                <br>Type of Payment
+                <div>
+                    <label for="COD"><br>Cash on Delivery</label>
+                    <input type="radio" name="Payment" id="COD" required>
+                </div>
+                <div>
+                    <label for="Online"><br>Online Payment</label>
+                    <input type="radio" name="Payment" id="Online" required>
+                </div>
+            </div>
+            <div>
+                <br>
+                <button type="reset">Reset</button>
+                <button type="submit">Submit</button>
+            </div>
+        </form>
+            </div>
+        </div>
+    </body>
+</html>
