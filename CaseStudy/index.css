@@ -22,6 +22,8 @@ html,body{
   color: #fff;
 }
 .wrapper{
+  position: relative;
+  top: 100px;
   overflow: hidden;
   max-width: 390px;
   background: #fff;
