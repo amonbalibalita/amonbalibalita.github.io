@@ -13,8 +13,24 @@
         integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 
     <title>Home</title>
+    <style>
+        /* Define CSS styles for the animated elements */
+        .animate-me {
+            /* Other CSS properties */
+            transform: translateY(40%);
+            /* Initially, move the element below its original position */
+            transition: transform 0.3s ease;
+            /* Change the duration (0.8s) and timing function (ease) as needed */
+        }
+
+        .animate-me.visible {
+            transform: translateY(0);
+            /* Move the element back to its original position */
+        }
+    </style>
 </head>
 
 <body>
@@ -83,14 +99,15 @@
     </section>
     <section id="about">
         <center>
-            <h1>About</h1>
-            <p>I'm <strong><span style="color: red;">R</span>amon III <span style="color: green;">G.</span> <span
-                        style="color: blue;">B</span>alibalita</strong>, and I possess a range of skills and knowledge
+            <h1 class="animate-me">About</h1>
+            <p class="animate-me">I'm <strong><span style="color: red;">R</span>amon III <span
+                        style="color: green;">G.</span> <span style="color: blue;">B</span>alibalita</strong>, and I
+                possess a range of skills and knowledge
                 in
                 development and programming. This includes proficiency in several programming languages that I
                 frequently utilize.</p>
         </center>
-        <div class="container">
+        <div class="container animate-me">
             <div class="row" id="mainButtons">
                 <div class="col">
                     <img src="../Portfolio/images/webdev.png" alt="frontend">
@@ -199,14 +216,15 @@
     </section>
     <section id="projects">
         <center>
-            <h1>Projects</h1>
+            <h1 class="animate-me">Projects</h1>
         </center>
         <div class="container" style="align-self: center;">
             <center>
                 <div class="row justify-content-center">
-                    <div class="col">
+                    <div class="col animate-me">
                         <div class="card" style="width: 18rem;">
-                            <img onclick="location.href='https://amonbalibalita.github.io/Beach/'" src="../Portfolio/images/beach.png" class="card-img-top" alt="...">
+                            <img onclick="location.href='https://amonbalibalita.github.io/Beach/'"
+                                src="../Portfolio/images/beach.png" class="card-img-top" alt="...">
                             <div class="card-body">
                                 <h5 class="card-title">Promotional Beach Activity</h5>
                                 <p class="card-text">An activity created during my 2nd year of college aimed at
@@ -216,73 +234,108 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col">
+                    <div class="col animate-me">
                         <div class="card" style="width: 18rem;">
-                            <img onclick="location.href='https://amonbalibalita.github.io/Midterm%20Exam/'" src="../Portfolio/images/midterm.png" class="card-img-top" alt="...">
+                            <img onclick="location.href='https://amonbalibalita.github.io/Midterm%20Exam/'"
+                                src="../Portfolio/images/midterm.png" class="card-img-top" alt="...">
                             <div class="card-body">
                                 <h5 class="card-title">Midterm Politics</h5>
-                                <p class="card-text">For my college midterm exam, the task was to create a website presenting information about each candidate running in the presidential election.</p>
-                                <a href="https://amonbalibalita.github.io/Midterm%20Exam/" class="btn btn-primary">Interested? Check it out!</a>
+                                <p class="card-text">For my college midterm exam, the task was to create a website
+                                    presenting information about each candidate running in the presidential election.
+                                </p>
+                                <a href="https://amonbalibalita.github.io/Midterm%20Exam/"
+                                    class="btn btn-primary">Interested? Check it out!</a>
                             </div>
                         </div>
                     </div>
-                    <div class="col">
+                    <div class="col animate-me">
                         <div class="card" style="width: 18rem;">
-                            <img onclick="location.href='https://amonbalibalita.github.io/Motorcycle%20-%20balibalita/'" src="../Portfolio/images/Motorcycle.png" class="card-img-top" alt="...">
+                            <img onclick="location.href='https://amonbalibalita.github.io/Motorcycle%20-%20balibalita/'"
+                                src="../Portfolio/images/Motorcycle.png" class="card-img-top" alt="...">
                             <div class="card-body">
                                 <h5 class="card-title">Motorcycle</h5>
-                                <p class="card-text">During my second year in college, our goal was to create a website promoting the motorcycle of our choice.<br><br></p>
-                                <a href="https://amonbalibalita.github.io/Motorcycle%20-%20balibalita/" class="btn btn-primary">Interested? Check it out!</a>
+                                <p class="card-text">During my second year in college, our goal was to create a website
+                                    promoting the motorcycle of our choice.<br><br></p>
+                                <a href="https://amonbalibalita.github.io/Motorcycle%20-%20balibalita/"
+                                    class="btn btn-primary">Interested? Check it out!</a>
                             </div>
                         </div>
                     </div>
-                    <div class="col">
+                    <div class="col animate-me">
                         <div class="card" style="width: 18rem;">
-                            <img onclick="location.href='https://amonbalibalita.github.io/Poultry/'" src="../Portfolio/images/poultry.png" class="card-img-top" alt="...">
+                            <img onclick="location.href='https://amonbalibalita.github.io/Poultry/'"
+                                src="../Portfolio/images/poultry.png" class="card-img-top" alt="...">
                             <div class="card-body">
                                 <h5 class="card-title">Poultry</h5>
-                                <p class="card-text">This website serves as a promotional platform for poultry, developed as part of an activity during my second year in college.</p>
-                                <a href="https://amonbalibalita.github.io/Poultry/" class="btn btn-primary">Interested? Check it out!</a>
+                                <p class="card-text">This website serves as a promotional platform for poultry,
+                                    developed as part of an activity during my second year in college.</p>
+                                <a href="https://amonbalibalita.github.io/Poultry/" class="btn btn-primary">Interested?
+                                    Check it out!</a>
                             </div>
                         </div>
                     </div>
-                    <div class="col">
+                    <div class="col animate-me">
                         <div class="card" style="width: 18rem;">
-                            <img onclick="location.href='https://amonbalibalita.github.io/Software/'" src="../Portfolio/images/software.png" class="card-img-top" alt="...">
+                            <img onclick="location.href='https://amonbalibalita.github.io/Software/'"
+                                src="../Portfolio/images/software.png" class="card-img-top" alt="...">
                             <div class="card-body">
                                 <h5 class="card-title">Software Company</h5>
-                                <p class="card-text">The goal of this activity is to create a promotional website for our imaginary company, which offers software services to customers.</p>
-                                <a href="https://amonbalibalita.github.io/Software/" class="btn btn-primary">Interested? Check it out!</a>
+                                <p class="card-text">The goal of this activity is to create a promotional website for
+                                    our imaginary company, which offers software services to customers.</p>
+                                <a href="https://amonbalibalita.github.io/Software/" class="btn btn-primary">Interested?
+                                    Check it out!</a>
                             </div>
                         </div>
                     </div>
-                    <div class="col">
+                    <div class="col animate-me">
                         <div class="card" style="width: 18rem;">
-                            <img onclick="location.href='https://amonbalibalita.github.io/biography/'" src="../Portfolio/images/biography.png" class="card-img-top" alt="...">
+                            <img onclick="location.href='https://amonbalibalita.github.io/biography/'"
+                                src="../Portfolio/images/biography.png" class="card-img-top" alt="...">
                             <div class="card-body">
                                 <h5 class="card-title">Biography</h5>
-                                <p class="card-text">The goal of this activity is to create a website containing our biographical information, serving as our personal biography.</p>
-                                <a href="https://amonbalibalita.github.io/biography/" class="btn btn-primary">Interested? Check it out!</a>
+                                <p class="card-text">The goal of this activity is to create a website containing our
+                                    biographical information, serving as our personal biography.</p>
+                                <a href="https://amonbalibalita.github.io/biography/"
+                                    class="btn btn-primary">Interested? Check it out!</a>
                             </div>
                         </div>
                     </div>
-                    <div class="col">
+                    <div class="col animate-me">
                         <div class="card" style="width: 18rem;">
-                            <img onclick="location.href='https://amonbalibalita.github.io/marvel/'" src="../Portfolio/images/marvel.png" class="card-img-top" alt="...">
+                            <img onclick="location.href='https://amonbalibalita.github.io/marvel/'"
+                                src="../Portfolio/images/marvel.png" class="card-img-top" alt="...">
                             <div class="card-body">
                                 <h5 class="card-title">Marvel</h5>
-                                <p class="card-text">The goal of this activity is to create a website dedicated to our favorite superhero.<br><br></p>
-                                <a href="https://amonbalibalita.github.io/marvel/" class="btn btn-primary">Interested? Check it out!</a>
+                                <p class="card-text">The goal of this activity is to create a website dedicated to our
+                                    favorite superhero.<br><br></p>
+                                <a href="https://amonbalibalita.github.io/marvel/" class="btn btn-primary">Interested?
+                                    Check it out!</a>
                             </div>
                         </div>
                     </div>
-                    <div class="col">
+                    <div class="col animate-me">
                         <div class="card" style="width: 18rem;">
-                            <img onclick="location.href='https://amonbalibalita.github.io/CV'" src="../Portfolio/images/CV.png" class="card-img-top" alt="...">
+                            <img onclick="location.href='https://amonbalibalita.github.io/CV'"
+                                src="../Portfolio/images/CV.png" class="card-img-top" alt="...">
                             <div class="card-body">
                                 <h5 class="card-title">CV</h5>
-                                <p class="card-text">The goal of this activity, conducted during my second year of college, is to create a CV using only HTML and CSS.</p>
+                                <p class="card-text">The goal of this activity, conducted during my second year of
+                                    college, is to create a CV using only HTML and CSS.</p>
                                 <a href="https://amonbalibalita.github.io/CV" class="btn btn-primary">Interested? Check
+                                    it out!</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col animate-me">
+                        <div class="card" style="width: 18rem;">
+                            <img onclick="location.href='https://amonbalibalita.github.io/CaseStudy/'"
+                                src="../Portfolio/images/pickapps.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">PickApps</h5>
+                                <p class="card-text">The goal of this activity, conducted during my second year of
+                                    college project, is to create a simple e-commerce named PickApps.</p>
+                                <a href="https://amonbalibalita.github.io/CaseStudy/"
+                                    class="btn btn-primary">Interested? Check
                                     it out!</a>
                             </div>
                         </div>
@@ -291,7 +344,7 @@
             </center>
         </div>
     </section>
-    <footer id="footer" class="text-center py-5">
+    <footer id="footer" class="text-center py-5 animate-me">
         <div class="container">
             <img src="../Portfolio/images/logo.png" height="50" alt="" />
             <div class="row mt-4" id="footerContactInfo">
@@ -308,14 +361,18 @@
                 </div>
             </div>
             <p id="footerText" class="mt-4">
-                "Any fool can write code that a computer can understand. Good programmers <br>write code that humans can understand." - Martin Fowler
+                "Any fool can write code that a computer can understand. Good programmers <br>write code that humans can
+                understand." - Martin Fowler
             </p>
             <div class="mt-4">
-                <a id="socLink" href="https://www.instagram.com/ramonbalibalita/" class="me-3"><i class="fab fa-instagram"></i></a>
+                <a id="socLink" href="https://www.instagram.com/ramonbalibalita/" class="me-3"><i
+                        class="fab fa-instagram"></i></a>
                 <a id="socLink" href="https://www.facebook.com/ramon.balibalitaiii/" class="me-3"><i
                         class="fab fa-facebook"></i></a>
-                <a id="socLink" href="https://www.youtube.com/channel/UCfYRIeczdhx5MFc-6N0vOiQ" class="me-3"><i class="fab fa-youtube"></i></a>
-                <a id="socLink" href="https://twitter.com/ABalibalit98626" class="me-3"><i class="fa-brands fa-x-twitter"></i></a>
+                <a id="socLink" href="https://www.youtube.com/channel/UCfYRIeczdhx5MFc-6N0vOiQ" class="me-3"><i
+                        class="fab fa-youtube"></i></a>
+                <a id="socLink" href="https://twitter.com/ABalibalit98626" class="me-3"><i
+                        class="fa-brands fa-x-twitter"></i></a>
             </div>
         </div>
     </footer>
@@ -325,8 +382,24 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
         crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script>
+        $(document).ready(function () {
+            // Function to handle scroll event
+            $(window).on('scroll', function () {
+                $('.animate-me').each(function () {
+                    var windowTop = $(window).scrollTop();
+                    var elementTop = $(this).offset().top;
+                    var windowHeight = $(window).height();
+                    if (elementTop < windowTop + windowHeight - 100) { // Adjust this value as needed for the desired animation trigger point
+                        $(this).addClass('visible'); // Add 'visible' class to animate the element
+                    }
+                });
+            });
+        });
+    </script>
 
+    <script>
         /* for main buttons */
         $(document).ready(function () {
             $("#webDev, #programming, #ide,#frontend, #backend, #database").hide(); // Initially hide other sections
@@ -396,4 +469,5 @@
         });
     </script>
 </body>
+
 </html>
